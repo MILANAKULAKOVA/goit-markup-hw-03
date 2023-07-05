@@ -80,12 +80,26 @@ body {
     text-transform: uppercase;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 332px;
+}
+
 .header-navigation {
     display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
 }
 
 .header-menu {
     display: flex;
+    gap: 40px;
+}
+
+.header-address-item {
+    display: flex;
+    gap: 40px;
 }
 
 .header-menu-link {
@@ -103,10 +117,6 @@ body {
 
 .header-address {
     font-style: normal;
-}
-
-.header-address-item {
-    display: flex;
 }
 
 .header-address-info {
