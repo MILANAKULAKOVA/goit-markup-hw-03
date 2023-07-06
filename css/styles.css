@@ -213,6 +213,11 @@ body {
 
 /*--------------WEDOING-----------------*/
 
+.wedoing {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .wedoing-title {
     color: var(--main-color);
     text-align: center;
@@ -221,12 +226,23 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.wedoing-list {
+    display: flex;
+}
+
+.wedoing-img {
+    width: calc((100%-24px*2) / 3);
 }
 
 /*--------------TEAM-----------------*/
 
 .team {
     background-color: var(--color-white);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title-list {
@@ -241,10 +257,16 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.team-title-list {
+    display: flex;
 }
 
 .team-advantages {
     background-color: #FFFFFF;
+    width: calc((100%-24px*2) / 4);
 }
 
 .team-name {
@@ -253,6 +275,8 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    padding-top: 32px;
+    text-align: center;
 }
 
 .team-profession {
@@ -260,6 +284,8 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
+    text-align: center;
 }
 
 /*--------------FOOTER-----------------*/
