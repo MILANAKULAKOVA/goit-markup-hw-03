@@ -56,8 +56,8 @@ body {
 /*--------------HEADER-----------------*/
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .header-logo {
@@ -85,6 +85,7 @@ body {
     display: flex;
     align-items: center;
     gap: 332px;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-navigation {
@@ -178,12 +179,29 @@ body {
 
 /*--------------ADVANTAGES-----------------*/
 
+.advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.advantages-list {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    gap: 24px;
+}
+
+.advantages-item {
+    width: calc((100%-24px*3) / 4);
+}
+
 .advantages-subtitle {
     color: var(--main-color);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .advantages-item-text {
