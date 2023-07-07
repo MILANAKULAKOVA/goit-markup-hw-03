@@ -358,6 +358,7 @@ body {
     padding-left: 24px;
     justify-content: center;
     margin-top: 96px;
+    margin-bottom: 72px;
 }
 
 .menu-button-link:hover,
@@ -374,6 +375,11 @@ body {
 
 .options {
     display: flex;
+    flex-wrap: wrap;
+    width: calc((100%-24px*8) / 9);
+    gap: 24px;
+    justify-content: space-between;
+    padding-bottom: 120px;
 }
 
 .options-list-head {
@@ -382,6 +388,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    padding-top: 32px;
 }
 
 .options-list-function {
