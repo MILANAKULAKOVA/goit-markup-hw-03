@@ -309,6 +309,7 @@ body {
 
 .footer {
     background: var(--main-color);
+    padding: 100px 0;
 }
 
 .footer-cotainer {
@@ -324,9 +325,10 @@ body {
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: up*percase;
-    margin-bottom: 18px;
+    text-transform: upercase;
+    margin-bottom: 16px;
     justify-content: center;
+    display: inline-block;
 }
 
 .footer-logo-accent {
