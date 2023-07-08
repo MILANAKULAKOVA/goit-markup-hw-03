@@ -143,11 +143,10 @@ body {
 
 .hero {
     background: var(--main-color);
+    padding: 188px 0;
 }
 
 .hero-container {
-    padding-top: 188px;
-    padding-bottom: 292px;
     text-align: center;
 }
 
@@ -171,8 +170,12 @@ body {
     letter-spacing: 0.04em;
     background: var(--accent-color);
     cursor: pointer;
-    padding: 16px 32px;
+    display: block;
     justify-content: center;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .hero-btn:hover,
