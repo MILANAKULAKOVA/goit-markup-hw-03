@@ -411,7 +411,7 @@ img {
     row-gap: 48px;
 }
 
-.options-list {
+.link {
     width: calc((100%-48px)/3);
 }
 
