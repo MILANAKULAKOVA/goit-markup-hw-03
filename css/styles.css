@@ -237,10 +237,11 @@ body {
 
 .wedoing-list {
     display: flex;
+    gap: 24px;
 }
 
 .wedoing-img {
-    width: calc((100%-24px*2) / 3);
+    width: calc((100%-48px) / 3);
 }
 
 /*--------------TEAM-----------------*/
