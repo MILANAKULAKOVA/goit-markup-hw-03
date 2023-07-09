@@ -182,7 +182,6 @@ img {
     background: var(--accent-color);
     cursor: pointer;
     display: block;
-    justify-content: center;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -411,7 +410,7 @@ img {
     row-gap: 48px;
 }
 
-.link {
+.options-list {
     width: calc((100%-48px)/3);
 }
 
